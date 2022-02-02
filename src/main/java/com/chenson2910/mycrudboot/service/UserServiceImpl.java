@@ -1,14 +1,14 @@
-package com.chenson2910.mycrudboot.Service;
+package com.chenson2910.mycrudboot.service;
 
-import com.chenson2910.mycrudboot.Model.User;
-import com.chenson2910.mycrudboot.Repository.UserRepository;
+import com.chenson2910.mycrudboot.model.User;
+import com.chenson2910.mycrudboot.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
 @Service
-public class UserService {
+public class UserServiceImpl implements UserService {
     @Autowired
     private UserRepository userRepository;
 

@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@EnableJpaRepositories("com.chenson2910.mycrudboot.Repository")
+@EnableJpaRepositories("com.chenson2910.mycrudboot.repository")
 @EntityScan("com.chenson2910.mycrudboot.Model")
 public class MycrudbootApplication {
     public static void main(String[] args) {
